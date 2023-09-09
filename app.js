@@ -13,7 +13,7 @@ app.get("/",(req,res)=>{
     const dayOfWeek = moment().tz("UTC").format("dddd");
     const currentUTCtime = moment().tz('UTC').format("YYYY-MM-DDTHH:mm:ss[Z]")
 
-    const githubFileURL = "https://github.com/TunedayCodes/HGNx-Backend-track-Stage-one.git";
+    const githubFileURL = "https://github.com/TunedayCodes/HGNx-Backend-track-Stage-one/blob/main/app.js";
     const githubRepoURL = "https://github.com/TunedayCodes/HGNx-Backend-track-Stage-one.git";
 
     const data = {
